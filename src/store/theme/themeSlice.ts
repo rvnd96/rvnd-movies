@@ -1,13 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export type Theme = "acid" | "night";
+export type Theme = "cupcake" | "forest";
 
 interface ThemeState {
   current: Theme;
 }
 
 const initialState: ThemeState = {
-  current: "night",
+  current: "forest",
 };
 
 const themeSlice = createSlice({
@@ -15,7 +15,7 @@ const themeSlice = createSlice({
   initialState,
   reducers: {
     toggleTheme: (state) => {
-      state.current = state.current === "acid" ? "night" : "acid";
+      state.current = state.current === "cupcake" ? "forest" : "cupcake";
     },
   },
 });

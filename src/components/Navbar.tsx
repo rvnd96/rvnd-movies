@@ -41,11 +41,11 @@ const Navbar = () => {
       <div className="navbar-end">
         <button
           className={`btn btn-sm ${
-            theme === "acid" ? "btn-outline" : "btn-primary text-white"
+            theme === "cupcake" ? "btn-outline" : "btn-primary text-white"
           }`}
           onClick={() => dispatch(toggleTheme())}
         >
-          {theme === "acid" ? "🌙" : "☀️"}
+          {theme === "cupcake" ? "🌙" : "☀️"}
         </button>
       </div>
     </div>

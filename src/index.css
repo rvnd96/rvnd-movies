@@ -1,4 +1,4 @@
 @import "tailwindcss";
  @plugin "daisyui" {
-   themes: acid --default, night --prefersdark;
+   themes: cupcake --default, forest --prefersdark;
  }

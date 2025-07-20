@@ -27,8 +27,8 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="mt-2 text-xs">
-        <p>© {new Date().getFullYear()} MovieApp by RvNd. All rights reserved.</p>
+      <div className="hidden lg:block mt-2 text-xs">
+        <p>Developed and Copyrighted© {new Date().getFullYear()} by RvNd.</p>
       </div>
     </footer>
   );
