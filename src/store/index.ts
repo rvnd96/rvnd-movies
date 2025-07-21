@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import themeReducer from "./theme/themeSlice";
+import paginationReducer from "./pagination/paginationSlice";
 
 export const store = configureStore({
   reducer: {
     theme: themeReducer,
+    pagination: paginationReducer,
   },
 });
 
